@@ -27,8 +27,8 @@ public class ConvertirMonedas {
         JOptionPane.showConfirmDialog(null,"Tienes-JPY: " + monedaYen + " Yenes.");
     }
 
-    public void ConvertirSolesAwones(double valor) {
-        double monedaWon = valor / 0.0029;
+    public void ConvertirSolesAWons(double valor) {
+        double monedaWon = valor / 0.061;
         monedaWon = (double) Math.round(monedaWon * 100d)/100;
         JOptionPane.showConfirmDialog(null,"Tienes-KRN: " + monedaWon + " Wons.");
     }
